@@ -1,0 +1,71 @@
+body{
+    width: 1200px;
+    margin: auto;
+    background: #white;
+}
+header{
+    margin:auto;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+#mySketch{
+    width: 800px;
+    height: 250px;
+    background-color: #F2EEE2;
+    margin-top: 50px;
+}
+header h1{
+    font-size: 70px;
+    color: #F5CE28;
+    margin: auto;
+}
+header h2{
+    font-size: 20px;
+    color: #F81B84;
+}
+nav h2{
+    margin-top: 0;
+    display: block;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif; 
+    color:#43C0F6;
+    line-height: 100px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;  
+    font-family: 'Roboto Condensed', sans-serif;    
+}
+#mainnav >ul {
+    display: flex; 
+}
+#mainnav >ul >li {
+	flex: 1;
+    position: relative;
+}
+#mainnav ul li a {
+	display:block;
+    width:60%;
+    max-width: 100%;
+    margin: auto;
+	text-align:center;
+    text-decoration:none;
+    color: #333333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#mainnav ul li a:hover{
+    font-size: 105%;
+}
+footer{
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: #F81B84;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+}
+footer a{
+    color:#F81B84;
+}
+#validator{
+    text-align: right;
+}
