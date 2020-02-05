@@ -1,7 +1,7 @@
 body{
     width: 1200px;
     margin: auto;
-    background: #white;
+    background: white;
 }
 header{
     margin:auto;
@@ -42,13 +42,13 @@ nav ul{
 #mainnav >ul >li {
 	flex: 1;
     position: relative;
+    color: #333333;
+    line-height: 2em;
 }
 #mainnav ul li a {
 	display:block;
     width:60%;
     max-width: 100%;
-    margin: auto;
-	text-align:center;
     text-decoration:none;
     color: #333333;
     font-family: 'Roboto Condensed', sans-serif;
