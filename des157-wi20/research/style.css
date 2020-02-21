@@ -12,9 +12,21 @@ header h1{
     color: #F5CE28;
     margin: auto;
 }
-header h2{
+body header h2{
     font-size: 20px;
     color: #F81B84;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+body h2{
+    margin:auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#333333;
+    font-size: 20px;
+    padding-top: 50px;
+    line-height: 2em;
+    text-align: center;
 }
 h3{
     margin:auto;
@@ -34,6 +46,7 @@ p{
     color:#333333;
     font-size: 18px;
     line-height: 2em;
+    text-indent: 2em;
 }
 footer{
     font-family: 'Roboto Condensed', sans-serif; 
