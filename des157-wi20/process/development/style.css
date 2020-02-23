@@ -28,6 +28,12 @@ p{
     font-size: 18px;
     line-height: 2em;
 }
+ol{ 
+    color:#333333;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
 footer{
     font-family: 'Roboto Condensed', sans-serif; 
     color: #F81B84;
