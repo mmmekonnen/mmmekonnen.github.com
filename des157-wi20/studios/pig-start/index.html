@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <title>Game of PIG</title>
+</head>
+<body>
+    <h1><img id="pig" src="images/pig.png" alt="pig" height="85" width="100">Game of PIG<img id="pig" src="images/pig.png" alt="pig" height="85" width="100"></h1>
+    <h2>How to Play</h2>
+
+    <p id="howto">There are two players. The player whose turn it is rolls the dice. The total of the roll is added to the current player's score, unless either die comes up as a “one”. If this happens, this player's turn is over, and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a “one” was not rolled) or if the current player feels that luck is running thin, they can pass to the other player. The first player to get 30 points or higher wins.</p> 
+    <p id="howto">Oh, and if you roll two “ones” (snake eyes), your current score gets zeroed out.</p> 
+
+    <div id="gamecontrol">
+        <p>Player 1, please press <button id="startgame">start</button> to begin the game.</p>
+    </div>
+
+    <div id="game"></div>
+    <div id="actions"></div>
+    <div id="score"></div>
+
+    <script src="script.js"></script>
+    
+    <footer>
+        <p id="email">Contact Me: <a href="mailto:&#109;&#109;&#109;&#101;&#107;&#111;&#110;&#110;&#101;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#109;&#109;&#109;&#101;&#107;&#111;&#110;&#110;&#101;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+        <p><a href="https://mmmekonnen.github.io/des157-wi20/">Portal Page</a></p>
+        <p id="validator"><a href="https://validator.w3.org/check?uri=referer">Valid HTML</a><a href="https://jigsaw.w3.org/css-validator/check/referer">/Valid CSS</a></p>
+    </footer>
+</body>
+</html>

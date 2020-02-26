@@ -1,0 +1,134 @@
+
+body h1{
+    font-family: 'Montserrat', sans-serif ;
+    text-align: left;
+    font-size: 100px;
+    text-align: center;
+    margin:auto;
+    color: #F995BE;
+}
+body h1 #pig{
+    padding-top:30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+body h2{
+    text-align: center;
+    font-family: 'Hind', sans-serif ;
+    margin: auto;
+    color: #CE679B;
+    padding-top: 10px;
+    font-size:30px;
+    padding-bottom: 10px;
+}
+body #howto {
+   text-align: center;
+   padding-left: 275px;
+   padding-right: 275px;
+   padding-top: 10px;
+   font-family: 'Hind', sans-serif ;
+   margin: auto;
+   line-height: 1.5em;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Hind', sans-serif ;
+    margin: auto;
+    line-height: 1.5em;
+}
+#gamecontrol{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    font-family: 'Hind', sans-serif ;
+    margin: auto;
+    line-height: 1.5em;
+}
+#startgame{
+    background-color: #F995BE; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#quit{
+    background-color: white; 
+    border: 2px solid #CE679B;
+    border-radius: 8px;
+    padding: 3px;
+    color: #CE679B;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    right: 695px;
+}
+#roll{
+    background-color: #F995BE; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#actions {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#rollagain{
+    background-color: #F995BE; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#pass{
+    background-color: #F995BE; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#game{
+    padding: 5px;
+    text-align: center;
+    
+}
+div #action{
+    align-content: center;
+}
+
+body footer{
+    font-family: 'Montserrat', sans-serif ;
+    color: #CE679B;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+    position: absolute;
+    bottom: 10px;
+    width:100%;
+}
+body footer a{
+    color:#CE679B;
+}
+body #validator{
+    text-align: right;
+}
