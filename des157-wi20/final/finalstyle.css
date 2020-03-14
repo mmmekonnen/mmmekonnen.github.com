@@ -1,0 +1,182 @@
+#title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: #DBB100;
+    margin-left: 50px;
+}
+
+.details h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: #DBB100;
+    margin-left: 50px;
+}
+
+.details a{
+    text-decoration: none;
+}
+
+.details h2{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #DBB100;
+    margin-left: 50px;
+    line-height: 0;
+
+}
+.details{
+    background-color: #262629;
+    background-image: none;
+}
+
+.details p{
+    float: left;
+    width: 35%;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    line-height: 2em;
+    color:white;
+    font-size: 15px;
+}
+
+body{
+    background-image: url("images/usamap.png");
+    background-repeat: no-repeat;
+    background-size: 1100px 600px;
+    background-position: 80px 150px;
+    background-color: #262629;
+}
+#hamburger{
+    padding: 0;
+}
+.menu {
+    display: block;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.bar1, .bar2, .bar3 {
+width: 50px;
+height: 5px;
+background-color: #DBB100;
+margin: 10px 1300px;
+transition: 0.4s;
+}
+
+    
+.change .bar1 {
+-webkit-transform: rotate(-45deg) translate(-10px, 10px);
+transform: rotate(-45deg) translate(-10px, 10px);
+background-color: white;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+-webkit-transform: rotate(45deg) translate(-10px, -10px);
+transform: rotate(45deg) translate(-10px, -10px);
+background-color: white;
+}
+
+.protests{
+    cursor: pointer;
+}
+.protests .dot1{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 380px;
+}
+.protests .dot2{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    top: 500px;
+}
+.protests .dot3{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 650px;
+    top: 550px;
+}
+.protests .dot4{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 630px;
+    top: 610px;
+}
+.protests .dot5{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 1030px;
+    top: 370px;
+}
+.protests .dot6{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 1040px;
+    top: 400px;
+}
+.protests .dot7{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 1060px;
+    top: 330px;
+}
+.protests .dot8{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 920px;
+    top: 600px;
+}
+.protests .dot9{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 830px;
+    top: 360px;
+}
+.protests .dot10{
+    height: 10px;
+    width: 10px;
+    background-color: #DBB100;
+    border-radius: 50%;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+}
+.protests 
+
+
+
