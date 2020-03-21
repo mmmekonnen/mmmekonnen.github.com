@@ -31,10 +31,33 @@
     background-color: #262629;
     background-image: none;
 }
+.details aside{
+    float: right;
+    top: 10px;
+    margin-right: 50px;
+    width: 20%;
+}
+.details aside h1{
+    font-size: 20px;
+    margin: 0;
+}
 
-.details p{
+.details aside p{
+    float: right;
+    font-family: 'Montserrat';
+    color: lightgray;
+    line-height: 2em;
+    font-size: 15px;
+}
+.details aside p a{
+    color: #DBB100;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    line-height: 2em;
+}
+.details main p{
     float: left;
-    width: 35%;
+    width: 30%;
     margin-left: 50px;
     font-family: 'Montserrat';
     line-height: 2em;
@@ -53,24 +76,50 @@ body{
     padding: 0;
 }
 .menu {
-    display: block;
     cursor: pointer;
     margin-top: 0;
+    position: relative;
+    display: block;
+    right: -50px;
+
 }
+.menu .menuitems{
+    display: none;
+    position: absolute;
+    right: 90px;
+    background-color: #DBB100;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.menu .menuitems a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
 
 .bar1, .bar2, .bar3 {
-width: 50px;
-height: 5px;
-background-color: #DBB100;
-margin: 10px 1300px;
-transition: 0.4s;
+    width: 50px;
+    height: 5px;
+    background-color: #DBB100;
+    margin: 10px 1300px;
+    transition: 0.4s;
+}
+.menu .menuitems a:hover {
+    background-color: #ddd;
 }
 
+.menu:hover .menuitems {
+    display: block;
+}
     
 .change .bar1 {
--webkit-transform: rotate(-45deg) translate(-10px, 10px);
-transform: rotate(-45deg) translate(-10px, 10px);
-background-color: white;
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    transform: rotate(-45deg) translate(-10px, 10px);
+    background-color: white;
 }
 
 .change .bar2 {
@@ -78,14 +127,24 @@ background-color: white;
 }
 
 .change .bar3 {
--webkit-transform: rotate(45deg) translate(-10px, -10px);
-transform: rotate(45deg) translate(-10px, -10px);
-background-color: white;
+    -webkit-transform: rotate(45deg) translate(-10px, -10px);
+    transform: rotate(45deg) translate(-10px, -10px);
+    background-color: white;
 }
 
 .protests{
     cursor: pointer;
 }
+.protests h2{
+    visibility: hidden;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #DBB100;
+    -webkit-text-stroke: 0.5px #262629;
+    z-index: 5;
+    position: relative;
+}
+
 .protests .dot1{
     height: 10px;
     width: 10px;
@@ -95,6 +154,7 @@ background-color: white;
     left: 250px;
     top: 380px;
 }
+
 .protests .dot2{
     height: 10px;
     width: 10px;
@@ -176,7 +236,62 @@ background-color: white;
     left: 550px;
     top: 400px;
 }
-.protests 
+.protests .dot1:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
+}
+.protests .dot2:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
 
+}
+.protests .dot3:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
 
+}
+.protests .dot4:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
 
+}
+.protests .dot5:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
+
+}
+.protests .dot6:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
+
+}
+.protests .dot7:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
+
+}
+.protests .dot8:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
+
+}
+.protests .dot9:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
+
+}
+.protests .dot10:hover h2{
+    height: 15px;
+    width: 15px;
+    visibility: visible;
+
+}
